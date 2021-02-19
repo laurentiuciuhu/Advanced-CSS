@@ -1,0 +1,18 @@
+body {
+    font-size: 1.9em;
+}
+
+#parallax {
+    background-image: url(xps-Qrjx2nTBHVo-unsplash.jpg);
+    background-size: cover;
+    height: 75vh;
+    background-attachment: fixed;
+}
+
+#parallax2 {
+    background-image: url(xps-Qrjx2nTBHVo-unsplash.jpg);
+    background-size: cover;
+    height: 75vh;
+    background-attachment: fixed;
+}
+
