@@ -1,0 +1,50 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--back-color);
+    /*background-color: rgb(11,11,11);*/
+    color: var(--font-color);
+    font-family: sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin: 1.5em;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    margin: 0.5em 1em;
+    list-style-type: none;
+    text-transform: uppercase;
+}
+
+#switch::before {
+    content: var(--symbol);
+    font-size: 1.5em;
+    position: relative;
+    top: -0.15em;
+    cursor: pointer;
+    font-family: "Font Awesome 5 Free";
+}
+
+div {
+    height: 50vh;
+    background-image: url(foto1.jpg);
+    background-size: cover;
+    background-position-y: -20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}

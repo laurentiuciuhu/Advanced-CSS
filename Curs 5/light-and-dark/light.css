@@ -1,0 +1,6 @@
+body {
+    /* definim o variabila si o denumim black */
+    --back-color: rgb(231,231,231);
+    --font-color: rgb(30,30,30);
+    --symbol: "\f186";
+}
